@@ -31,7 +31,7 @@ class CrowBuddy:
         model_path,
         names_file="models/crowbuddy.yaml",
         test_mode=False,
-        save_detections=True,
+        save_detections=False,
     ):
         self.in_blocking_state = False
         self.block_start_time = 0
